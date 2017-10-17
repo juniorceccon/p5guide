@@ -25,7 +25,7 @@ export default new VueRouter({
   scrollBehavior: () => ({ y: 0 }),
 
   routes: [
-    { path: '/', component: load('BookProgress') },
+    { path: '/', component: load('books/BookProgress') },
 
     // Always leave this last one
     { path: '*', component: load('Error404') } // Not found
